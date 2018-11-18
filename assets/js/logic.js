@@ -1,19 +1,3 @@
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCXFEBKCMnxyk6FJ9X9c-649cu1K7c5JkY",
-    authDomain: "todo-list-a9f5f.firebaseapp.com",
-    databaseURL: "https://todo-list-a9f5f.firebaseio.com",
-    projectId: "todo-list-a9f5f",
-    storageBucket: "todo-list-a9f5f.appspot.com",
-    messagingSenderId: "893025684489"
-  };
-  firebase.initializeApp(config);
-</script>
-
-var dataRaf = firebase.database();
-
-
 
 // check off specific todos by click
 $("ul").on("click", "li", function(){
